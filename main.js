@@ -14,7 +14,7 @@ const downloadCvButton = document.getElementById('download-cv');
     const cvFile = "https://drive.google.com/file/d/1w_LhGUPTgTfdT08_pAWisF5wUfS_Vyqs/view?usp=sharing"; // replace with your resume file URL
     const link = document.createElement('a');
     link.href = cvFile;
-    link.download = 'Monica Sri Resume .pdf'; // set the file name for the download
+    link.download = 'Monica Sri Resume general .pdf'; // set the file name for the download
     link.click();
   });
   const downloadresButton = document.getElementById('download-res');
@@ -23,7 +23,7 @@ const downloadCvButton = document.getElementById('download-cv');
     const cvFile = "https://drive.google.com/file/d/1w_LhGUPTgTfdT08_pAWisF5wUfS_Vyqs/view?usp=sharing"; // replace with your resume file URL
     const link = document.createElement('a');
     link.href = cvFile;
-    link.download = 'Monica Sri Resume .pdf'; // set the file name for the download
+    link.download = 'Monica Sri Resume general .pdf'; // set the file name for the download
     link.click();
   });
 /* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
