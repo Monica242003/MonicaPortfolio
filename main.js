@@ -11,7 +11,7 @@ function myMenuFunction(){
 const downloadCvButton = document.getElementById('download-cv');
 
   downloadCvButton.addEventListener('click', () => {
-    const cvFile = "https://drive.google.com/file/d/1w_LhGUPTgTfdT08_pAWisF5wUfS_Vyqs/view?usp=sharing"; // replace with your resume file URL
+    const cvFile = "https://drive.google.com/file/d/1w_LhGUPTgTfdT08_pAWisF5wUfS_Vyqs/view?usp=drive_link"; // replace with your resume file URL
     const link = document.createElement('a');
     link.href = cvFile;
     link.download = 'Monica Sri Resume general .pdf'; // set the file name for the download
@@ -20,7 +20,7 @@ const downloadCvButton = document.getElementById('download-cv');
   const downloadresButton = document.getElementById('download-res');
 
   downloadresButton.addEventListener('click', () => {
-    const cvFile = "https://drive.google.com/file/d/1w_LhGUPTgTfdT08_pAWisF5wUfS_Vyqs/view?usp=sharing"; // replace with your resume file URL
+    const cvFile = "https://drive.google.com/file/d/1w_LhGUPTgTfdT08_pAWisF5wUfS_Vyqs/view?usp=drive_link"; // replace with your resume file URL
     const link = document.createElement('a');
     link.href = cvFile;
     link.download = 'Monica Sri Resume general .pdf'; // set the file name for the download
