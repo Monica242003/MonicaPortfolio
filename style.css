@@ -246,12 +246,7 @@ nav{
     height: 400px;
     object-fit: cover;
 }
-@keyframes imgFloat {
-    50%{
-        transform: translateY(10px);
-        border-radius: 45% 55% 45% 55%;
-    }
-}
+
 .scroll-btn{
    position: absolute;
    bottom: 0;
